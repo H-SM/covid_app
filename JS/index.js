@@ -1,4 +1,4 @@
-fetch("/data.json")
+fetch("JS/data.json")
     .then(response => response.json())
     .then(rsp =>{
         console.log(rsp.data);
