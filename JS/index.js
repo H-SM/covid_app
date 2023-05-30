@@ -1,4 +1,4 @@
-fetch("/data.json")
+fetch("https://h-sm.github.io/covid_app/data.json")
     .then(response => response.json())
     .then(rsp =>{
         console.log(rsp.data);
